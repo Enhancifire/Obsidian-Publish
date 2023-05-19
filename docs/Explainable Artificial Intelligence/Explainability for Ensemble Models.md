@@ -1,9 +1,4 @@
-### Ensemble Models
-Ensemble Models: Complex Models that are made up of multiple smaller, less accurate models.
-Three types of Ensemble Models:
-	1. [[Ensemble Bagging|Bagging]]
-	2. [[Ensemble Boosting|Boosting]]
-	3. [[Ensemble Stacking|Stacking]]
+![[Ensemble Models]]
 
 ### Using SHAP for Ensemble Models
 
@@ -26,4 +21,4 @@ We can use SHAP for understanding the output of an ensemble model.
 5. Interpret the SHAP Values
    Interpret the final SHAP values to understand the feature importance and various other stuff that you do using SHAP
    
-### Using SHAP for Categorical Boosting Models
+### Using SHAP for [[Categorical Boosting Models]]
