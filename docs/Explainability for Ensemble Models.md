@@ -1,4 +1,5 @@
-![[Ensemble Models]]
+### What are [[Ensemble Models]]?
+Ensemble Models are Complex Models built using a combination of multiple small/weak models. They boast superior accuracy as compared to their base models.
 
 ### Using SHAP for Ensemble Models
 
@@ -22,3 +23,11 @@ We can use SHAP for understanding the output of an ensemble model.
    Interpret the final SHAP values to understand the feature importance and various other stuff that you do using SHAP
    
 ### Using SHAP for [[Categorical Boosting Models]]
+1. Train the [[Categorical Boosting Models]]
+   Train the model on the training data.
+2. Convert Categorical Features
+   Since SHAP works on Numerical Features, we need to convert the categorical data into numerical form. We can use many techniques like One-Hot Encoding
+3. Calculate SHAP Values
+   Once we have converted the categorical data into numerical form, we can calculate the SHAP values for them. There exist specific implementations of SHAP for the various models, such as LightGBM SHAP for LightGBM, etc
+4. Interpret SHAP Values
+   We can now interpret the SHAP values to understand feature importance, etc

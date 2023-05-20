@@ -9,8 +9,6 @@ sem: 6
 Created at: [[2022-05-25]]
 
 ## College Course
-### Prerequisites
-- 
 ### Units
 #### Unit I: [[Introduction to Explainable Artificial Intelligence]]
 #### Unit II: [[Explainability for Linear Models]]
@@ -18,6 +16,3 @@ Created at: [[2022-05-25]]
 #### Unit IV: [[Explainability for Ensemble Models]]
 #### Unit V: Counterfactual Explanations for XAI Models
 #### Unit VI: Contrastive Explanations and LRP for Machine Learning
-
-## References:
-- 
