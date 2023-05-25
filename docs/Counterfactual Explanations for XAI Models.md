@@ -1,2 +1,3 @@
-- [[What If Tool]]
-- [[Counterfactual Explanations]]
+[[What If Tool]]
+
+[[Counterfactual Explanations]]
