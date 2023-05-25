@@ -14,5 +14,5 @@ Created at: [[2022-05-25]]
 #### Unit II: [[Explainability for Linear Models]]
 #### Unit III: Explainability for Non Linear Models
 #### Unit IV: [[Explainability for Ensemble Models]]
-#### Unit V: Counterfactual Explanations for XAI Models
-#### Unit VI: Contrastive Explanations and LRP for Machine Learning
+#### Unit V: [[Counterfactual Explanations for XAI Models]]
+#### Unit VI: [[Contrastive Explanations and LRP for Machine Learning]]
