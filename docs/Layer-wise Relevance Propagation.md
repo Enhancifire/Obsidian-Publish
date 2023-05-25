@@ -4,29 +4,7 @@ The idea behind LRP is to assign relevance scores to each neuron in the network,
 
 ### General Steps for LRP
 
-```mermaid
-graph LR
-
-subgraph Layerwise Relevance Propagation
-    A[Initialize relevance]
-    B[Relevance propagation]
-    C[Relevance redistribution]
-    D[Continue propagation]
-    E[Relevance assignment to input features]
-end
-
-A --> B
-B --> C
-C --> D
-D --> E
-
-style A fill:#eb6f92, stroke:#e0def4, stroke-width:2px
-style B fill:#ebbcba, stroke:#e0def4, stroke-width:2px
-style C fill:#31748f, stroke:#e0def4, stroke-width:2px
-style D fill:#9ccfd8, stroke:#e0def4, stroke-width:2px
-style E fill:#c4a7e7, stroke:#e0def4, stroke-width:2px
-
-```
+![[LRP Diagram.svg]]
 
 1. **Initialize relevance:** Start by assigning relevance scores to the neurons in the output layer based on the model's prediction. The relevance is typically higher for neurons that contribute more to the prediction.
 2. **Relevance propagation:** Starting from the output layer, propagate the relevance backward through the network. This involves distributing the relevance from each neuron to its input neurons in the previous layer based on their contribution.
